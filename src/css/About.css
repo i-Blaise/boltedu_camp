@@ -1,0 +1,33 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    position: relative;
+    bottom: 4rem;
+}
+
+.about-container h2 {
+    font-family: 'DMSans Bold', sans-serif;
+    font-size: 20px;
+    color: #246BFD;
+    text-transform: uppercase;
+}
+
+.about-container p {
+    color: #FFF;
+    font-family: 'DMSans Regular',sans-serif;
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+}
+
+.about-container h2:nth-of-type(2) {
+    font-family: 'DMSans Black', sans-serif;
+    width: 80%;
+    text-align: center;
+}
+
+.about-container p span {
+    color: #246BFD;
+}
