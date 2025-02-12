@@ -1,0 +1,17 @@
+.app-background {
+    background-image: url('../assets/bg-round.png');
+    background-size: cover; /* Ensures the image covers the entire container */
+    overflow: hidden !important; /* Prevents scrolling */
+    background-color: #040B10;
+    width: 100%;
+    /* height: 100%; */
+    height: 100rem;
+  }
+
+  /* Ensure the body and html take up the full height and width */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}

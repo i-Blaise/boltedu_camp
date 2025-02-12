@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'DMSans Bold';
+    src: url('../assets/font/DM_Sans/static/DMSans-Bold.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DMSans Regular';
+    src: url('../assets/font/DM_Sans/static/DMSans-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between items */
+    align-items: center; /* Aligns items vertically */
+    padding: 28px 8rem;
+    border-bottom: 0.5px solid #ffffff33;
+    /* border: 3px solid red; */
+}
+
+.navbar-brand, .navbar-links, .nav-cta {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: #E7DEFE;
+}
+
+.navbar .navbar-brand {
+    display: inline-flex;
+    font-family: 'DMSans Bold', sans-serif;
+}
+
+.navbar .navbar-brand-name {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    left: 5px;
+    position: relative;
+}
+
+.navbar-links {
+    gap: 38px; /* Adds space between links */
+}
+
+.navbar .navbar-links a {
+    text-decoration: none;
+    color: #E7DEFE;
+    font-size: 16px;
+    color: #AFBCD5;
+    font-family: 'DMsans Regular', sans-serif;
+}
+
+.nav-cta-btn {
+    padding: 18px 48px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border-radius: 28px;
+    border: 1px solid #0040C3;
+}
