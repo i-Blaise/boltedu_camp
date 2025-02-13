@@ -2,6 +2,7 @@ import '../src/css/App.css'
 import NavBar from './components/NavBar'
 import Header from './components/Header'
 import About from './components/About'
+import Features from './components/Features'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <Header />
       <About />
+      <Features />
     </div>
   )
 }

@@ -1,0 +1,45 @@
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 10rem;
+}
+
+.features-container h2 {
+    color: #FFFF;
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 42px;
+}
+
+.features-container p {
+    color: #FFFF;
+    font-family: "DMSans Regular", sans-serif;
+    font-size: 18px;
+    width: 80%;
+}
+
+.features-container h3 {
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 20px;
+    color: #246BFD;
+    text-transform: uppercase;
+}
+
+.feature-row {
+    /* width: 90%; */
+    margin: 0 8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-row .feature-text {
+    width: 30%;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    width: 70%;
+}
