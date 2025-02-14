@@ -1,0 +1,48 @@
+.accordionTrigger {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6rem;
+    cursor: pointer;
+    background: #00000000;
+    color: #FFFF;
+    padding-top: 3rem;
+  }
+
+  .accordionTrigger .accordionNum {
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 24px;
+  }
+
+  .accordionTrigger .accordionTitle {
+    font-family: 'DMSans Regular', sans-serif;
+    font-size: 24px;
+    width: 90%;
+    text-transform: none;
+    font-weight: 100;
+  }
+
+  .accordionContent {
+    padding: 3rem 2rem 0 0;
+    background: #00000000;
+    color: #FFF;
+  }
+
+  .AccordionPlusIcon {
+    height: 24px;
+    width: 24px;
+    margin-left: 10rem;
+  }
+
+  .itemRow {
+    border-bottom: 1px solid #ffffff78;
+    margin: 0 17rem;
+    padding-bottom: 3rem;
+  }
+
+  .accordionDesc {
+    font-family: 'DMSans Regular', sans-serif;
+    font-size: 20px;
+    width: 90%;
+  }
+
