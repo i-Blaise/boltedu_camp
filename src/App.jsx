@@ -6,6 +6,7 @@ import Features from './components/Features'
 import Benefits from './components/Benefits'
 import HowItWorks from './components/HowItWorks'
 import FAQS from './components/FAQS'
+import CTASection from './components/CTASection'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Benefits />
       <HowItWorks />
       <FAQS />
+      <CTASection />
     </div>
   )
 }

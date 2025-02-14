@@ -1,0 +1,58 @@
+.ctaRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem 6rem;
+}
+
+.ctaRow .ctaTexts {
+    width: 50%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+}
+
+.ctaRow .ctaImage {
+    width: 50%;
+}
+
+.ctaImage img {
+    width: 100%;
+    height: auto;
+}
+
+.ctaTexts h3 {
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 20px;
+    color: #246BFD;
+    text-transform: uppercase;
+}
+
+.ctaTexts h1 {
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 40px;
+    background: radial-gradient(#FFFFFF, #FFFFFF, #0a4eacde);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 85%;
+}
+
+.ctaItalics {
+    font-family: "DMSans Italics", sans-serif !important;
+    font-size: 20px;
+    position: relative;
+    bottom: 2rem;
+    margin-bottom: -1rem;
+}
+
+.ctaTexts p, .ctaTexts ul {
+    font-family: "DMSans Regular", sans-serif;
+    font-size: 20px;
+    color: #AFBCD5;
+    width: 80%;
+}
+
+.form {
+    position: relative;
+    left: 2rem;
+    bottom: 1rem;
+}

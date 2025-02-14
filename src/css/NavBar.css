@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'DMSans Italics';
+    src: url('../assets/font/DM_Sans/static/DMSans-Italic.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between; /* Adjusts spacing between items */
