@@ -50,7 +50,7 @@ function FAQAccordion() {
  
         <AnimatedAccordionContent className={style.accordionContent}>
             <span className={style.accordionDesc}>
-            Absolutely! Migrating your school's data is a seamless process. Simply upload your files—whether it's an Excel sheet, CSV, PDF, or DOCX—and our intelligent system will automatically sort and organize the data for you. No more tedious, repetitive data entry! <br />
+            Absolutely! Migrating your school's data is a seamless process. Simply upload your files—whether it's an Excel sheet, CSV, PDF, or DOCX—and our intelligent system will automatically sort and organize the data for you. No more tedious, repetitive data entry! <br /> <br/>
             Plus, our dedicated support agents are always on standby to assist you at any stage of the process. We ensure a smooth and hassle-free transition so you can get started with confidence!
             </span>
         </AnimatedAccordionContent>
@@ -70,7 +70,7 @@ function FAQAccordion() {
 
         <AnimatedAccordionContent className={style.accordionContent}>
             <span className={style.accordionDesc}>
-            Yes! We offer a one-month free trial to all new users, allowing you to experience our platform with no commitment. However, if you joined our waitlist, you get an exclusive two-month free trial as a special thank-you for your early interest. <br />
+            Yes! We offer a one-month free trial to all new users, allowing you to experience our platform with no commitment. However, if you joined our waitlist, you get an exclusive two-month free trial as a special thank-you for your early interest. <br /> <br/>
 
             This is the perfect opportunity to explore all our features and see how our platform can benefit you. Get started today and make the most of your free trial!
             </span>
