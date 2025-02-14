@@ -1,0 +1,29 @@
+.faqsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.faqsContainer h3 {
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 20px;
+    color: #246BFD;
+    text-transform: uppercase;
+}
+
+.faqsContainer h2 {
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 40px;
+    background: radial-gradient(#FFFFFF, #FFFFFF, #0a4eacde);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.faqsContainer p {
+    font-family: "DMSans Regular", sans-serif;
+    font-size: 20px;
+    color: #AFBCD5;
+    width: 45%;
+    text-align: center;
+}

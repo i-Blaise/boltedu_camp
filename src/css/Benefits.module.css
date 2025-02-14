@@ -1,0 +1,79 @@
+.benefitsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+    margin: 0 7rem;
+}
+
+.benefitsContainer h2 {
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 20px;
+    color: #246BFD;
+    text-transform: uppercase;
+}
+
+.benefitsContainer h1 {
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 40px;
+    background: radial-gradient(#FFFFFF, #FFFFFF, #0a4eacde);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.benefitsContainer p {
+    font-family: "DMSans Regular", sans-serif;
+    font-size: 20px;
+    color: #AFBCD5;
+}
+.benefitsRow {
+    display: flex;
+    margin-top: 4rem;
+    width: 100%;
+    flex-wrap: wrap; 
+}
+
+@media (max-width: 900px) {
+    .benefitsRow {
+        display: block;
+    }
+}
+
+
+.benefits {
+    display: flex;
+}
+
+.benefits img {
+    height: 50px;
+}
+
+.benefitsText {
+    width: 50%;
+}
+
+.benefitsImage {
+    width: 50%;
+}
+
+.benefitsImage img {
+    width: 100%;
+    height: auto;
+}
+
+.benefits .texts {
+    margin: -25px 0 50px 30px;
+}
+
+.benefits h3 {
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.benefits p {
+    font-family: "DMSans Regular", sans-serif;
+    font-size: 16px;
+    color: #AFBCD5;
+    width: 75%;
+}

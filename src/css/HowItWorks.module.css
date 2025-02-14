@@ -1,0 +1,36 @@
+.hiwContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.hiwContainer h3 {
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 20px;
+    color: #246BFD;
+    text-transform: uppercase;
+}
+
+.hiwContainer h2 {
+    font-family: "DMSans Bold", sans-serif;
+    font-size: 40px;
+    background: conic-gradient(#9cb0ce9c, #FFFFFF, #0a4dac9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hiwContainer p {
+    font-family: "DMSans Regular", sans-serif;
+    font-size: 20px;
+    color: #AFBCD5;
+    width: 45%;
+    text-align: center;
+}
+
+.stepsContainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+}
